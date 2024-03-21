@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to TodoApp</title>
+  <style>
+    /* Add your custom CSS styles here */
+    /* For example: */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F3CCFF;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #f5f5f7;
+      padding: 30px;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #777;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #540375;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to TodoApp, <%= userName %>!</h1>
+    <p>Thank you for signing up and choosing TodoApp as your task management platform.</p>
+    <p>With TodoApp, you can easily create, organize, and track your tasks to stay productive and organized.</p>
+    <p>To get started, follow these simple steps:</p>
+    <ol>
+      <li>Add your first task with description.</li>
+      <li>Start working on your tasks and check them off when completed.</li>
+    </ol>
+    <p>If you have any questions or need assistance, feel free to reach out to our support team.</p>
+    <p>Get started now and make the most out of TodoApp!</p>
+    <p><a class="button" href="https://todos-app-gamma.vercel.app/">Go to TodoApp</a></p>
+    <p>Best regards,</p>
+    <p>The TodoApp Team</p>
+  </div>
+</body>
+
+</html>

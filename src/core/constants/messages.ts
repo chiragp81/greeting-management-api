@@ -1,0 +1,45 @@
+export const MESSAGES = {
+  UNAUTHORIZED_ACCESS: 'Unauthorized access',
+  EMAIL_CONFIRMATION_REQUIRED_ATTENTION: 'Attention: E-mail confirmation required!! 🛑',
+  WELCOME_TO_TODOS_APP: 'Welcome to Todos App!',
+  TODO_RESET_YOUR_PASSWORD: 'ToDo: Reset Your Password',
+  USER_EMAIL_ALREADY_EXISTS: 'User with email {{email}} already exists',
+  SIGNUP_SUCCESSFUL: 'You\'ve signed up successfully 🥳',
+  USER_DOES_NOT_EXIST: 'User does not exists',
+  USER_UPDATE_SUCCESSFUL: 'User updated successfully 😎',
+  USER_EMAIL_DOES_NOT_EXIST: 'User with email {{email}} does not exists',
+  VERIFY_YOUR_EMAIL: 'Please verify your email 📋',
+  INVALID_CREDENTIALS: 'Invalid Credentials',
+  USER_LOGIN_SUCCESSFUL: 'User logged in successfully 🎉',
+  USER_PROFILE_RECEIVED_SUCCESSFUL: 'User profile received successfully!',
+  USER_DELETED_SUCCESSFUL: 'User deleted successfully ⛔',
+  PASSWORD_RESET_REQUEST_SENT_SUCCESSFUL: 'Password reset request sent successfully 🤿',
+  RESET_TOKEN_EXPIRED_TRY_AGAIN: 'Reset token expired, please try again 🙇‍♂️',
+  NEW_PASSWORD_CANNOT_BE_SAME_AS_OLD: 'New password cannot be the same as the previous one 👀',
+  PASSWORD_RESET_SUCCESSFUL: 'Password reset successfully 🎉',
+  USER_NOT_FOUND: 'User not found 🙇‍♂️',
+  EMAIL_VERIFIED_SUCCESSFUL: 'E-mail verified successfully 🎉',
+  USER_LIST_FETCHED_SUCCESSFUL: 'User list fetched successfully',
+  ROLE_DOES_NOT_EXIST: 'Role does not exist',
+  ROLE_CREATED_SUCCESSFUL: 'Role created successfully',
+  ROLE_FETCHED_SUCCESSFUL: 'Role fetched successfully',
+  ROLE_UPDATED_SUCCESSFUL: 'Role updated successfully',
+  ROLE_DELETED_SUCCESSFUL: 'Role deleted successfully',
+  PERMISSION_DOES_NOT_EXIST: 'Permission does not exist',
+  PERMISSION_CREATED_SUCCESSFUL: 'Permission created successfully',
+  PERMISSION_FETCHED_SUCCESSFUL: 'Permission fetched successfully',
+  PERMISSION_UPDATED_SUCCESSFUL: 'Permission updated successfully',
+  PERMISSION_DELETED_SUCCESSFUL: 'Permission deleted successfully',
+  PERMISSION_ALREADY_EXIST: 'Permission already exists',
+};
+
+export const SHORT_MESSAGES = {
+  NO_REPLY: 'No Reply',
+  SUPPORT_TEAM: 'Support Team',
+};
+
+export const VALIDATION_MESSAGES = {
+  PERMISSION_REQUIRED: 'Permission is required',
+  PERMISSION_SHOULD_BE_UNIQUE: 'Permission should be unique',
+  INVALID_PERMISSION_ID: 'Invalid Permission ID',
+}

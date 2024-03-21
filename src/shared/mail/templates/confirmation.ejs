@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Email Confirmation</title>
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #777;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Confirm Your Email</h1>
+    <p>Hi <%= userName %>,</p>
+    <p>Thank you for signing up! To complete your registration, please click the button below to confirm your email:</p>
+    <a class="button" href="<%= confirmationLink %>">Confirm Email</a>
+    <p>If you didn't sign up for our service, you can safely ignore this email.</p>
+    <p>Best regards,</p>
+    <p>The TodoApp Team</p>
+  </div>
+</body>
+
+</html>
